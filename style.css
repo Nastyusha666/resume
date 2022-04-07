@@ -4,12 +4,18 @@
   font-size:16px;
   font-weight: 400px;
   background:#fff;
+  position:relative;
  }
  .container{
   max-width:750px;
   margin:auto ;
+ 
 }
-
+ .info{
+   display:inline-block;
+   vertical-align:top;
+   padding:20px;
+ }
  p{
   color: #FF69B4;
  }
@@ -74,10 +80,41 @@ th,td  {
    margin-top: 10px;
 }
 
-.block-color{
+.block-color {
   background-color:#dcccf5;
 }
 
-.container{
+.form h1{
+ text-align: center;
+}
+
+.span {
+  background:#000000;
+  color:#FFFFFF;
 
 }
+
+.span2 {
+  background:#ffe1f5;
+
+}
+
+.test-block {
+  background:red;
+}
+
+.item {
+  width:200px;
+  position: absolute;
+  left:1130px;
+}
+
+.item2 {
+  width:200px;
+  position: fixed;
+  left:1130px;
+  top:855px;
+  z-index:10;
+
+}
+
